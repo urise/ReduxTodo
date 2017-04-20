@@ -94,10 +94,28 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="package.json" />
+    <Content Include="src\actions\index.js" />
+    <Content Include="src\actions\index.spec.js" />
+    <Content Include="src\components\App.js" />
+    <Content Include="src\components\Footer.js" />
+    <Content Include="src\components\Link.js" />
+    <Content Include="src\components\Todo.js" />
+    <Content Include="src\components\TodoList.js" />
+    <Content Include="src\containers\AddTodo.js" />
+    <Content Include="src\containers\FilterLink.js" />
+    <Content Include="src\containers\VisibleTodoList.js" />
+    <Content Include="src\index.js" />
+    <Content Include="src\reducers\index.js" />
+    <Content Include="src\reducers\todos.js" />
+    <Content Include="src\reducers\todos.spec.js" />
+    <Content Include="src\reducers\visibilityFilter.js" />
+    <Content Include="webpack.config.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
